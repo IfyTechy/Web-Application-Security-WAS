@@ -1,6 +1,6 @@
 # Web Application Security — Lab Portfolio
 
-Twenty-three lab reports from the International Cybersecurity and Digital Forensics Academy (ICDFA), Web Application Security & Digital Forensics phase — modules BVWS101 to BVWS103, completed October 2025 to February 2026. Every report is committed in this repository under [`reports/`](reports/), so the portfolio is fully self-contained.
+Twenty-four lab reports from the International Cybersecurity and Digital Forensics Academy (ICDFA), Web Application Security & Digital Forensics phase — modules BVWS101 to BVWS103 plus BVWS105, completed October 2025 to April 2026. Every report is committed in this repository under [`reports/`](reports/), so the portfolio is fully self-contained.
 
 > **Scope note:** all exercises were performed on ICDFA-authorised lab environments and intentionally vulnerable local targets. No production, third-party or unauthorised system was ever tested.
 
@@ -9,6 +9,7 @@ Twenty-three lab reports from the International Cybersecurity and Digital Forens
 - **Linux system administration:** users and groups, file permissions, process control, Bash scripting and automation
 - **Networking:** OSI model, IP addressing and subnetting, reconnaissance and service/vulnerability mapping with nmap
 - **Web application security:** OWASP Top 10 exploitation and remediation — SQL injection, XSS, command injection, insecure deserialization, security misconfiguration, sensitive data exposure, logging gaps
+- **Penetration testing:** OWASP penetration testing methodology — scoping, discovery, exploitation and structured reporting
 - **Lab environments:** Kali Linux, XAMPP web stacks, isolated virtual lab networks
 
 ## BVWS101 — Foundations: Linux, Networking & Bash Scripting
@@ -49,13 +50,20 @@ Twenty-three lab reports from the International Cybersecurity and Digital Forens
 | 9 | Using components with known vulnerabilities | 2026-02-08 | Exploited a component with published CVEs and documented the patching path. | [PDF](reports/BVWS103/09-known-vulnerable-components.pdf) |
 | 10 | Insufficient logging & monitoring | 2026-02-15 | Demonstrated attacker actions escaping detection and specified monitoring improvements. | [PDF](reports/BVWS103/10-insufficient-logging-and-monitoring.pdf) |
 
+## BVWS105 — OWASP Penetration Testing Methodology
+
+| # | Lab | Date | Summary | Report |
+|---|-----|------|---------|--------|
+| 1 | OWASP penetration testing methodology | 2026-04-09 | Applied the OWASP penetration testing methodology — scoping, discovery, exploitation and reporting — against an authorised lab target. | [PDF](reports/BVWS105/01-owasp-penetration-testing-methodology.pdf) |
+
 ## Repository layout
 
 ```text
 reports/
 ├── BVWS101/   Linux, networking and Bash foundations (5 reports)
 ├── BVWS102/   Web application security essentials (8 reports)
-└── BVWS103/   OWASP Top 10 exploitation techniques (10 reports)
+├── BVWS103/   OWASP Top 10 exploitation techniques (10 reports)
+└── BVWS105/   OWASP penetration testing methodology (1 report)
 ```
 
 ## Related work
