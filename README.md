@@ -1,65 +1,69 @@
-# Phase 1: Web Application Security (WAS)
+# Web Application Security — Lab Portfolio
 
-This repository contains my lab projects from the International Cybersecurity and Digital Forensics Academy (ICDFA) under the Web Application Security (WAS) & Digital Forensic phase.
+Twenty-three lab reports from the International Cybersecurity and Digital Forensics Academy (ICDFA), Web Application Security & Digital Forensics phase — modules BVWS101 to BVWS103, completed October 2025 to February 2026. Every report is committed in this repository under [`reports/`](reports/), so the portfolio is fully self-contained.
 
-It includes practical exercises that helped me understand the fundamentals of Linux, Networking, and Bash Scripting - forming the foundation for learning web security concepts. Each task focuses on how systems work behind the scenes, how users and files are managed, and how security can be applied to protect them.
+> **Scope note:** all exercises were performed on ICDFA-authorised lab environments and intentionally vulnerable local targets. No production, third-party or unauthorised system was ever tested.
 
-This repository is meant to serve as both a record of my learning progress and a resource for anyone interested in starting their journey in cybersecurity.
+## Skills & tools
 
-### **BVWS101: Foundation of Linux, Networking & Bash Scripting**
+- **Linux system administration:** users and groups, file permissions, process control, Bash scripting and automation
+- **Networking:** OSI model, IP addressing and subnetting, reconnaissance and service/vulnerability mapping with nmap
+- **Web application security:** OWASP Top 10 exploitation and remediation — SQL injection, XSS, command injection, insecure deserialization, security misconfiguration, sensitive data exposure, logging gaps
+- **Lab environments:** Kali Linux, XAMPP web stacks, isolated virtual lab networks
 
-This module provides a foundational understanding of Linux operating systems, computer networking, and Bash scripting. It emphasizes practical system administration skills, including user and group management, file permissions, process control, and automation through shell scripts. The knowledge gained serves as a crucial base for advanced cybersecurity tasks and secure system operations.
+## BVWS101 — Foundations: Linux, Networking & Bash Scripting
 
-[1: BVWS101_Basic Command & FileSystem_20251013.pdf](https://github.com/user-attachments/files/23094106/202520850LE_BVWS101_BasicCommand.FileSystem_20251013.pdf)
+| # | Lab | Date | Summary | Report |
+|---|-----|------|---------|--------|
+| 1 | Basic commands & file system | 2025-10-13 | Core Linux shell navigation and file/directory management, demonstrated hands-on. | [PDF](reports/BVWS101/01-basic-commands-and-filesystem.pdf) |
+| 2 | Linux system administration | 2025-10-20 | Configured users, groups, permissions and processes on a Linux host. | [PDF](reports/BVWS101/02-linux-system-administration.pdf) |
+| 3 | OSI model cyberlab | 2025-10-27 | Mapped observed network behaviour to OSI layers in a guided cyberlab. | [PDF](reports/BVWS101/03-osi-model-cyberlab.pdf) |
+| 4 | IP addressing lab exercise | 2025-10-27 | Calculated and validated IP addressing and subnetting schemes for lab networks. | [PDF](reports/BVWS101/04-ip-addressing-lab.pdf) |
+| 5 | Bash scripting lab exercise | 2025-11-03 | Automated routine administration tasks with shell scripts. | [PDF](reports/BVWS101/05-bash-scripting-lab.pdf) |
 
+## BVWS102 — Web Application Security Essentials
 
-[2: BVWS101_Linux System Administrative Adventure_20251020.pdf…](https://github.com/user-attachments/files/26335864/202520850LE_BVWS101_LinuxSystemAdministrativeAdventure_20251020.pdf)
+| # | Lab | Date | Summary | Report |
+|---|-----|------|---------|--------|
+| 1 | OSI model cyberlab (web stack) | 2025-10-27 | Applied OSI layering to diagnose a simulated web application stack. | [PDF](reports/BVWS102/01-osi-model-cyberlab.pdf) |
+| 2 | Web application security essentials | 2025-11-10 | Core web application security concepts and the failure modes behind them. | [PDF](reports/BVWS102/02-web-application-security-essentials.pdf) |
+| 3 | PHP backend development with SQL database | 2025-11-17 | Built a PHP/SQL backend and identified how query handling introduces injection risk. | [PDF](reports/BVWS102/03-php-backend-with-sql-database.pdf) |
+| 4 | OWASP Top 10 web vulnerabilities | 2025-11-24 | Mapped the OWASP Top 10 categories to practical lab examples. | [PDF](reports/BVWS102/04-owasp-top-10-overview.pdf) |
+| 5 | Virtual lab environment setup | 2025-12-22 | Stood up an isolated virtual lab network for safe web security practice. | [PDF](reports/BVWS102/05-virtual-lab-environment-setup.pdf) |
+| 6 | Web application reconnaissance | 2025-12-28 | Performed authorised reconnaissance against lab targets and documented the exposed surface. | [PDF](reports/BVWS102/06-web-application-reconnaissance.pdf) |
+| 7 | Nmap mastery and vulnerability mapping | 2026-01-04 | Produced host, service and vulnerability maps with nmap against lab targets. | [PDF](reports/BVWS102/07-nmap-mastery-and-vulnerability-mapping.pdf) |
+| 8 | Final project: web application security | 2025-12-04 | End-to-end assessment of a lab web application combining reconnaissance, enumeration and a findings report. | [PDF](reports/BVWS102/08-final-project-web-application-security.pdf) |
 
-[3: BVWS101_OSI_CyberLab.pdf](https://github.com/user-attachments/files/23317283/NebeuwaIfeanyichukwuRaphael_OSI_CyberLab.pdf)
-  - [BVWS101_IP Address Lab Exercise_20251027.pdf](https://github.com/user-attachments/files/23317366/202520850LE_BVWS101_IPAddressLabExercise_20251027.pdf)
+## BVWS103 — OWASP Top 10: Vulnerability & Exploitation Techniques
 
- [4: BVWS101_Bash Scripting Lab Exercise_20251103.pdf](https://github.com/user-attachments/files/23317655/202520850LE_BVWS101_BashScriptingLabExercise_20251103.pdf)
+| # | Lab | Date | Summary | Report |
+|---|-----|------|---------|--------|
+| 1 | XAMPP installation on Kali | 2026-01-22 | Deployed a local vulnerable web stack (XAMPP) as the exploitation target for the module. | [PDF](reports/BVWS103/01-xampp-installation-on-kali.pdf) |
+| 2 | HTML injection | 2026-01-25 | Injected HTML into unsanitised input, documented rendering impact and the fix. | [PDF](reports/BVWS103/02-html-injection.pdf) |
+| 3 | Advanced SQL injection | 2026-01-25 | Extracted data from a lab application via union- and boolean-based SQL injection. | [PDF](reports/BVWS103/03-advanced-sql-injection.pdf) |
+| 4 | Command injection | 2026-01-25 | Achieved OS command execution through unsanitised input and specified input-validation controls. | [PDF](reports/BVWS103/04-command-injection.pdf) |
+| 5 | Cross-site scripting (XSS) | 2026-02-01 | Executed reflected and stored XSS payloads and demonstrated cookie-theft impact. | [PDF](reports/BVWS103/05-cross-site-scripting.pdf) |
+| 6 | Insecure deserialization | 2026-02-01 | Exploited unsafe object deserialization to alter application behaviour. | [PDF](reports/BVWS103/06-insecure-deserialization.pdf) |
+| 7 | Security misconfiguration | 2026-02-01 | Identified and exploited default and misconfigured settings; listed hardening steps. | [PDF](reports/BVWS103/07-security-misconfiguration.pdf) |
+| 8 | Sensitive data exposure | 2026-02-08 | Located exposed sensitive data and recommended encryption and access controls. | [PDF](reports/BVWS103/08-sensitive-data-exposure.pdf) |
+| 9 | Using components with known vulnerabilities | 2026-02-08 | Exploited a component with published CVEs and documented the patching path. | [PDF](reports/BVWS103/09-known-vulnerable-components.pdf) |
+| 10 | Insufficient logging & monitoring | 2026-02-15 | Demonstrated attacker actions escaping detection and specified monitoring improvements. | [PDF](reports/BVWS103/10-insufficient-logging-and-monitoring.pdf) |
 
-### **BVWS102: Web Application Security Essential**
+## Repository layout
 
-[1: OSI_CyberLab 20251027.pdf](https://github.com/user-attachments/files/26335973/NebeuwaIfeanyichukwuRaphael_OSI_CyberLab.pdf)
+```text
+reports/
+├── BVWS101/   Linux, networking and Bash foundations (5 reports)
+├── BVWS102/   Web application security essentials (8 reports)
+└── BVWS103/   OWASP Top 10 exploitation techniques (10 reports)
+```
 
-[2:_BVWS102_Web Application Security Essential_20251110.pdf](https://github.com/user-attachments/files/26335911/202520850LE_BVWS102_WebApplicationSecurityEssential_20251110.pdf)
+## Related work
 
-[3: BVWS102 PHP Backend Development with SQL Database_20251117.pdf](https://github.com/user-attachments/files/26335968/BVWS102_202520850LE_PHPBackendDevelopmentwithSQLDatabase_20251117.pdf)
+- [PortSwigger Web Security Academy writeups](https://github.com/IfyTechy/portswigger-web-security-academy-writeups) — XSS and CSRF lab walkthroughs
+- [SBT-DF203 Lab 3 — SYN Flood Attack Investigation Using tshark](https://github.com/IfyTechy/SBT-DF203_Lab3_SYN-Flood-Attack-Investigation-Using-tshark)
+- [CIP-B102 Lab 3 — Data Carving with XXD, Binwalk and Scalpel](https://github.com/IfyTechy/CIP-B102_Lab3_Data-Carving-with-XXD-Binwalk-and-Scalpel)
 
-[4: BVWS102_OWASP Top 10 WebVulnerabilities_20251124.pdf](https://github.com/user-attachments/files/26335959/BVWS102_202520850LE_.OWASPTop10WebVulnerabilities_24112025.pdf)
+## Author
 
-[5: BVWS102 Virtual_Lab_Environment_Setup 251227.pdf](https://github.com/user-attachments/files/26335873/202520850LE_BVWS102_Virtual_Lab_Environment_Setup_20251222.pdf)
-
-[6: BVWS102_Web Application Reconnaissance_20251228.pdf](https://github.com/user-attachments/files/26335912/202520850LE_BVWS102_WebApplicationReconnaissance_20251228.pdf)
-
-[7: BVWS102 Nmap Mastry and Vulnerability Mapping 20260104.pdf](https://github.com/user-attachments/files/26335971/BVWS102_Lab_Report_NebeuwaIfeanyichukwuRaphael.pdf)
-
-[8: BVWS102_Final Project On Web Application Security Essential_20251204.pdf](https://github.com/user-attachments/files/26335949/202520850LE_BVWS102_FinalProjectOnWebApplicationSecurityEssential_20251204.pdf)
-
-      
-### **BVWS103: OWASP Top 10 Vulnrability & Exploitation Techniques**
-
-[1:_BVWS103_Xampp Installation On Kali_20260122.pdf](https://github.com/user-attachments/files/26336130/202520850LE_BVWS103_XamppInstallationOnKali_20260122.pdf)
-
-[2:_BVWS103_HTML Injection_20260125.pdf](https://github.com/user-attachments/files/26336139/202520850LE_BVWS103_HTMLInjection_20260125.pdf)
-
-[3:_BVWS103_Advance SQL InjectionLab_20260125.pdf](https://github.com/user-attachments/files/26336144/202520850LE_BVWS103_AdvanceSQLInjectionLab_20260125.pdf)
-
-[4:_BVWS103_Command Injection_20260125.pdf](https://github.com/user-attachments/files/26336152/202520850LE_BVWS103_CommandInjection_20260125.pdf)
-
-[5: BVWS103_Cross-Site Scripting (XSS)_20260201.pdf](https://github.com/user-attachments/files/26336158/202520850LE_BVWS103_Cross-SiteScripting.XSS._20260201.pdf)
-
-[6:_BVWS103_Insecure Deserialization_20260201.pdf](https://github.com/user-attachments/files/26336161/202520850LE_BVWS103_InsecureDeserialization_20260201.pdf)
-
-[7:_BVWS103_Security Misconfiguration_20260201.pdf](https://github.com/user-attachments/files/26336189/202520850LE_BVWS103_SecurityMisconfiguration_20260201.pdf)
-
-[8:_BVWS103_Sensitive Data Exposure_20260208.pdf](https://github.com/user-attachments/files/26336192/202520850LE_BVWS103_SensitiveDataExposure_20260208.pdf)
-
-[9:_BVWS103_Using Component With Known Vulnerabilities_20260208.pdf](https://github.com/user-attachments/files/26336194/202520850LE_BVWS103_UsingComponentWithKnownVulnerabilities_20260208.pdf)
-
-[10:_BVWS103_Insufficient Logging & Monitoring_20260215.pdf](https://github.com/user-attachments/files/26336267/202520850LE_BVWS103_InsufficientLogging.Monitoring_20260215.pdf)
-
-
-
+Nebeuwa Ifeanyichukwu Raphael — digital forensics and cyber-defence trainee, International Cybersecurity and Digital Forensics Academy (ICDFA).
