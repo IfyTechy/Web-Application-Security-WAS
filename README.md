@@ -1,6 +1,6 @@
 # Web Application Security — Lab Portfolio
 
-Twenty-four lab reports from the International Cybersecurity and Digital Forensics Academy (ICDFA), Web Application Security & Digital Forensics phase — modules BVWS101 to BVWS103 plus BVWS105, completed October 2025 to April 2026. Every report is committed in this repository under [`reports/`](reports/), so the portfolio is fully self-contained.
+Twenty-five lab reports from the International Cybersecurity and Digital Forensics Academy (ICDFA), Web Application Security & Digital Forensics phase — modules BVWS101 to BVWS103 plus BVWS105 and BVWS106, completed October 2025 to April 2026. Every report is committed in this repository under [`reports/`](reports/), so the portfolio is fully self-contained.
 
 > **Scope note:** all exercises were performed on ICDFA-authorised lab environments and intentionally vulnerable local targets. No production, third-party or unauthorised system was ever tested.
 
@@ -10,6 +10,7 @@ Twenty-four lab reports from the International Cybersecurity and Digital Forensi
 - **Networking:** OSI model, IP addressing and subnetting, reconnaissance and service/vulnerability mapping with nmap
 - **Web application security:** OWASP Top 10 exploitation and remediation — SQL injection, XSS, command injection, insecure deserialization, security misconfiguration, sensitive data exposure, logging gaps
 - **Penetration testing:** OWASP penetration testing methodology — scoping, discovery, exploitation and structured reporting
+- **Secure development:** secure coding practices and input validation — parameterised queries, output encoding, allow-list validation
 - **Lab environments:** Kali Linux, XAMPP web stacks, isolated virtual lab networks
 
 ## BVWS101 — Foundations: Linux, Networking & Bash Scripting
@@ -56,6 +57,12 @@ Twenty-four lab reports from the International Cybersecurity and Digital Forensi
 |---|-----|------|---------|--------|
 | 1 | OWASP penetration testing methodology | 2026-04-09 | Applied the OWASP penetration testing methodology — scoping, discovery, exploitation and reporting — against an authorised lab target. | [PDF](reports/BVWS105/01-owasp-penetration-testing-methodology.pdf) |
 
+## BVWS106 — Secure Coding Practices & Input Validation
+
+| # | Lab | Date | Summary | Report |
+|---|-----|------|---------|--------|
+| 1 | Secure coding practices and input validation | 2026-04-29 | Applied secure coding controls — parameterised queries, output encoding and allow-list input validation — to remediate injection-class flaws in a lab application. | [PDF](reports/BVWS106/01-secure-coding-practices-and-input-validation.pdf) |
+
 ## Repository layout
 
 ```text
@@ -63,7 +70,8 @@ reports/
 ├── BVWS101/   Linux, networking and Bash foundations (5 reports)
 ├── BVWS102/   Web application security essentials (8 reports)
 ├── BVWS103/   OWASP Top 10 exploitation techniques (10 reports)
-└── BVWS105/   OWASP penetration testing methodology (1 report)
+├── BVWS105/   OWASP penetration testing methodology (1 report)
+└── BVWS106/   Secure coding practices and input validation (1 report)
 ```
 
 ## Related work
